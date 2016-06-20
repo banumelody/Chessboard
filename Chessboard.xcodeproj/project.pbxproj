@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45949F221D18007F00C8CB65 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45949F211D18007F00C8CB65 /* Board.swift */; };
+		45949F2A1D18008600C8CB65 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 45949F241D18008500C8CB65 /* b.png */; };
+		45949F2B1D18008600C8CB65 /* k.png in Resources */ = {isa = PBXBuildFile; fileRef = 45949F251D18008500C8CB65 /* k.png */; };
+		45949F2C1D18008600C8CB65 /* n.png in Resources */ = {isa = PBXBuildFile; fileRef = 45949F261D18008500C8CB65 /* n.png */; };
+		45949F2D1D18008600C8CB65 /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = 45949F271D18008500C8CB65 /* p.png */; };
+		45949F2E1D18008600C8CB65 /* q.png in Resources */ = {isa = PBXBuildFile; fileRef = 45949F281D18008500C8CB65 /* q.png */; };
+		45949F2F1D18008600C8CB65 /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = 45949F291D18008600C8CB65 /* r.png */; };
 		45C3E98D1D17FE1300DB7A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C3E98C1D17FE1300DB7A20 /* AppDelegate.swift */; };
 		45C3E98F1D17FE1300DB7A20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C3E98E1D17FE1300DB7A20 /* ViewController.swift */; };
 		45C3E9921D17FE1300DB7A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C3E9901D17FE1300DB7A20 /* Main.storyboard */; };
 		45C3E9941D17FE1300DB7A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C3E9931D17FE1300DB7A20 /* Assets.xcassets */; };
 		45C3E9971D17FE1300DB7A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C3E9951D17FE1300DB7A20 /* LaunchScreen.storyboard */; };
+		C2E16F782C0A626AF985EBFC /* Pods_Chessboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F85458E0BAE04F93B47AA0A /* Pods_Chessboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F85458E0BAE04F93B47AA0A /* Pods_Chessboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chessboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45949F211D18007F00C8CB65 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		45949F241D18008500C8CB65 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		45949F251D18008500C8CB65 /* k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = k.png; sourceTree = "<group>"; };
+		45949F261D18008500C8CB65 /* n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n.png; sourceTree = "<group>"; };
+		45949F271D18008500C8CB65 /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p.png; sourceTree = "<group>"; };
+		45949F281D18008500C8CB65 /* q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = q.png; sourceTree = "<group>"; };
+		45949F291D18008600C8CB65 /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
 		45C3E9891D17FE1300DB7A20 /* Chessboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chessboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C3E98C1D17FE1300DB7A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C3E98E1D17FE1300DB7A20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,8 @@
 		45C3E9931D17FE1300DB7A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45C3E9961D17FE1300DB7A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45C3E9981D17FE1300DB7A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4F58B21EECAA5FAA05EC24 /* Pods-Chessboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chessboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chessboard/Pods-Chessboard.debug.xcconfig"; sourceTree = "<group>"; };
+		E66577A98DC1017CDB964B4F /* Pods-Chessboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chessboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chessboard/Pods-Chessboard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E16F782C0A626AF985EBFC /* Pods_Chessboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45949F231D18008500C8CB65 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				45949F241D18008500C8CB65 /* b.png */,
+				45949F251D18008500C8CB65 /* k.png */,
+				45949F261D18008500C8CB65 /* n.png */,
+				45949F271D18008500C8CB65 /* p.png */,
+				45949F281D18008500C8CB65 /* q.png */,
+				45949F291D18008600C8CB65 /* r.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
 		45C3E9801D17FE1300DB7A20 = {
 			isa = PBXGroup;
 			children = (
 				45C3E98B1D17FE1300DB7A20 /* Chessboard */,
 				45C3E98A1D17FE1300DB7A20 /* Products */,
+				A3447555525B9951FB1BB11D /* Pods */,
+				9FA4A5923D144038195441AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +91,30 @@
 				45C3E98C1D17FE1300DB7A20 /* AppDelegate.swift */,
 				45C3E98E1D17FE1300DB7A20 /* ViewController.swift */,
 				45C3E9901D17FE1300DB7A20 /* Main.storyboard */,
+				45949F211D18007F00C8CB65 /* Board.swift */,
+				45949F231D18008500C8CB65 /* icons */,
 				45C3E9931D17FE1300DB7A20 /* Assets.xcassets */,
 				45C3E9951D17FE1300DB7A20 /* LaunchScreen.storyboard */,
 				45C3E9981D17FE1300DB7A20 /* Info.plist */,
 			);
 			path = Chessboard;
+			sourceTree = "<group>";
+		};
+		9FA4A5923D144038195441AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F85458E0BAE04F93B47AA0A /* Pods_Chessboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3447555525B9951FB1BB11D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F58B21EECAA5FAA05EC24 /* Pods-Chessboard.debug.xcconfig */,
+				E66577A98DC1017CDB964B4F /* Pods-Chessboard.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45C3E99B1D17FE1300DB7A20 /* Build configuration list for PBXNativeTarget "Chessboard" */;
 			buildPhases = (
+				2B07916D7A6F1C092E4D965B /* [CP] Check Pods Manifest.lock */,
 				45C3E9851D17FE1300DB7A20 /* Sources */,
 				45C3E9861D17FE1300DB7A20 /* Frameworks */,
 				45C3E9871D17FE1300DB7A20 /* Resources */,
+				37EA566309091EA75B150D67 /* [CP] Embed Pods Frameworks */,
+				A7D859FC451FB4C7F2EA372E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,13 +180,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45949F2C1D18008600C8CB65 /* n.png in Resources */,
+				45949F2E1D18008600C8CB65 /* q.png in Resources */,
 				45C3E9971D17FE1300DB7A20 /* LaunchScreen.storyboard in Resources */,
+				45949F2F1D18008600C8CB65 /* r.png in Resources */,
 				45C3E9941D17FE1300DB7A20 /* Assets.xcassets in Resources */,
+				45949F2A1D18008600C8CB65 /* b.png in Resources */,
+				45949F2B1D18008600C8CB65 /* k.png in Resources */,
 				45C3E9921D17FE1300DB7A20 /* Main.storyboard in Resources */,
+				45949F2D1D18008600C8CB65 /* p.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B07916D7A6F1C092E4D965B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37EA566309091EA75B150D67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chessboard/Pods-Chessboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D859FC451FB4C7F2EA372E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chessboard/Pods-Chessboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		45C3E9851D17FE1300DB7A20 /* Sources */ = {
@@ -139,6 +249,7 @@
 			files = (
 				45C3E98F1D17FE1300DB7A20 /* ViewController.swift in Sources */,
 				45C3E98D1D17FE1300DB7A20 /* AppDelegate.swift in Sources */,
+				45949F221D18007F00C8CB65 /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +362,7 @@
 		};
 		45C3E99C1D17FE1300DB7A20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4F58B21EECAA5FAA05EC24 /* Pods-Chessboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Chessboard/Info.plist;
@@ -262,6 +374,7 @@
 		};
 		45C3E99D1D17FE1300DB7A20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66577A98DC1017CDB964B4F /* Pods-Chessboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Chessboard/Info.plist;
