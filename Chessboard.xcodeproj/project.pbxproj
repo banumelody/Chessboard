@@ -96,6 +96,8 @@
 				TargetAttributes = {
 					45C3E9881D17FE1300DB7A20 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L36L3WSJF7;
+						DevelopmentTeamName = "Banu Antoro";
 					};
 				};
 			};
@@ -288,6 +290,7 @@
 				45C3E99D1D17FE1300DB7A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
