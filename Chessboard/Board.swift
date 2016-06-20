@@ -25,9 +25,9 @@ class Board: UIView {
                 let rect = CGRect(x: CGFloat(i*Int(self.bounds.width/8)), y: CGFloat(Float((7-j)*Int(self.bounds.width/8))), width: self.bounds.width/8, height: self.bounds.width/8)
                 let uiview = Block.init(frame: rect)
                 if ((i+j)%2) == 0 {
-                    uiview.backgroundColor = UIColor.brownColor()
+                    uiview.backgroundColor = UIColor.grayColor()
                 } else {
-                    uiview.backgroundColor = UIColor.yellowColor()
+                    uiview.backgroundColor = UIColor.lightGrayColor()
                 }
                 blockRow.append(uiview)
                 self.addSubview(uiview)
@@ -41,6 +41,8 @@ class Board: UIView {
     }
     
     internal func refreshIcon(datas: [String]) {
+        
+        clearBoard()
 
         for items:String in datas {
             let poss = items.componentsSeparatedByString(",")
@@ -53,7 +55,7 @@ class Board: UIView {
                 let origImage = UIImage(named: poss[0].lowercaseString)
                 let tintedImg = origImage?.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
                 blocks[xPos][yPos].icon.image = tintedImg
-                blocks[xPos][yPos].icon.tintColor = UIColor.lightGrayColor()
+                blocks[xPos][yPos].icon.tintColor = UIColor.orangeColor()
                 
             } else {
                 blocks[xPos][yPos].icon.tintColor = UIColor.blackColor()
